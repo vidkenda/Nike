@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<title>Nike Bezier</title>
+<link rel="stylesheet" href="Bezier.css">
+<link rel="icon" type="image/x-icon" href="images/nike.png">
+
+ 
+</head>
+<body>
+    <section class="sec">
+        <header>
+            <a href="#"><img  src="images/nike.png" class="logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Newsletter</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>Nike Bezier</h2>
+                <p>
+                    The radiance lives on in the Nike Air Force 1 '07, 
+                    the basketball original that puts a fresh spin on what you know best: 
+                    durably stitched overlays, clean finishes and the perfect amount of flash to make you shine.
+                </p>
+                <a href="#">View All Products</a>
+            </div>
+            <div class="imgBox">
+                <img src="images/nikeairforce1.png" class="nike">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="images/nikeairforce1.png" onclick="imgSlider('images/nikeairforce1.png')"></li>
+            <li><img src="images/nikeairforce1red.png" onclick="imgSlider('images/nikeairforce1red.png')"></li>
+            <li><img src="images/nikeairforce1black.png" onclick="imgSlider('images/nikeairforce1black.png')"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="images/facebook.png"></a></li>
+            <li><a href="#"><img src="images/twitter.png"></a></li>
+            <li><a href="#"><img src="images/instagram.png"></a></li>
+        </ul>
+    </section>
+        <script type="text/javascript">
+            function imgSlider(anything){
+                document.querySelector('.nike').src = anything;
+            }
+
+        </script>
+
+        
+</body>
+
+</html>
