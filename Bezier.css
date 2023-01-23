@@ -96,12 +96,19 @@ header ul li a{
     width: 700px;
     display: flex;
     margin-top: 50px;
-    padding-right: 50px;
+    padding-right: 40px;
     justify-content: flex-end;
 }
 
 .content .imgBox img{
     max-width:900px;
+}
+
+.content svg{
+    width: 600px;
+    height: 220px;
+    margin-left: 75em;
+    margin-bottom: 5em;
 }
 
 .thumb{
@@ -149,3 +156,4 @@ header ul li a{
     margin: 5px 0;
     transform: scale(0.6);
 }
+
