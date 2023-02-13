@@ -1,2 +1,2 @@
 # Nike website
-Nike website with logos made with Bezier curves and svg paths.
+Nike website with logos made with Bezier curves and svg paths for school project.
